@@ -58,9 +58,9 @@ public abstract class Animal {
         this.edad = edad;
     }
     
-    //Metodo Abstracto
+    //Metodo Abstracto //Polimorfismos
     public abstract void Alimentarse();
-    
+    //Polimorfismos
     public abstract void correr();
     
     public void dormir(){

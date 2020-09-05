@@ -37,12 +37,12 @@ public class Conejo extends Animal {
     public void mostrar (){
         System.out.println(getNombre()+" - "+getTipo_alimentacion()+" - "+getEdad()+" - "+getColor());
     }
-
+    //Polimorfismos
     @Override
     public void Alimentarse() {
         System.out.println("Me alimento de pasto y lechuga");
         }
-
+    //Polimorfismos
     @Override
     public void correr() {
         System.out.println("Corro con mis cuatro patas, pero la fuerza esta"
