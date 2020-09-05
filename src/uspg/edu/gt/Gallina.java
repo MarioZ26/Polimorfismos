@@ -40,12 +40,12 @@ public class Gallina extends Animal {
     public void mostrar (){
         System.out.println(getNombre()+" - "+getTipo_alimentacion()+" - "+getEdad()+" - "+getAccion());
     }
-
+    //Polimorfismos
     @Override
     public void Alimentarse() {
         System.out.println("Me alimento de cemillas");
     }
-
+    //Polimorfismos
     @Override
     public void correr() {
         System.out.println("Corro con mis dos patas");
